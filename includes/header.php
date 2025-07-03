@@ -52,6 +52,15 @@
         }
     </style>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LCGHN5JWJ4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LCGHN5JWJ4');
+</script>
 
 <body>
 <!-- Navbar Start -->
@@ -71,7 +80,7 @@
                 <a href="index.php" class="nav-item nav-link active">Home</a>
                 <a href="about.php" class="nav-item nav-link">About</a>
                 <a href="service.php" class="nav-item nav-link">Services</a>
-                <a href="price.php" class="nav-item nav-link">Prices</a>
+                <a href="blog.php" class="nav-item nav-link">Blog</a>
                 <a href="project.php" class="nav-item nav-link">Projects</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
